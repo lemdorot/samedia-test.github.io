@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231001172134">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="categories">
+				<div class="categories__container">
+					<h1 class="categories__title">
+						<div class="categories__image-box">
+							<div class="categories__image-ibg">
+								<img src="img/green-leaf.svg" alt="Leaf">
+							</div>
+						</div>
+						Категории
+					</h1>
+					<div class="categories__list">
+						<article class="categories__item category">
+							<div class="category__wrapper">
+								<div class="category__image-box">
+									<div class="category__image-ibg">
+										<img src="img/category-1.svg" alt="">
+										<img class="category__hover" src="img/category-1-hover.svg" alt="">
+									</div>
+								</div>
+								<p class="category__name">Пестициды</p>
+								<div class="category__circles">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</article>
+						<article class="categories__item category">
+							<div class="category__wrapper">
+								<div class="category__image-box">
+									<div class="category__image-ibg">
+										<img src="img/category-2.svg" alt="">
+										<img class="category__hover" src="img/category-2-hover.svg" alt="">
+									</div>
+								</div>
+								<p class="category__name">Культуры</p>
+								<div class="category__circles">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</article>
+						<article class="categories__item category">
+							<div class="category__wrapper">
+								<div class="category__image-box">
+									<div class="category__image-ibg">
+										<img src="img/category-3.svg" alt="">
+										<img class="category__hover" src="img/category-3-hover.svg" alt="">
+									</div>
+								</div>
+								<p class="category__name">Вредители</p>
+								<div class="category__circles">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+							<div class="category__leaf-box">
+								<div class="category__leaf-ibg">
+									<img src="img/brown-leaf.svg" alt="Leaf">
+								</div>
+							</div>
+						</article>
+						<article class="categories__item category">
+							<div class="category__wrapper">
+								<div class="category__image-box">
+									<div class="category__image-ibg">
+										<img src="img/category-4.svg" alt="">
+										<img class="category__hover" src="img/category-4-hover.svg" alt="">
+									</div>
+								</div>
+								<p class="category__name">Действующие <br> вещества</p>
+								<div class="category__circles">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="auth">
+				<div class="auth__container">
+					<button class="auth__btn" data-popup="#authorization">Авторизация</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+			</div>
+		</footer>
+	</div>
+	<div id="authorization" aria-hidden="true" class="popup authorization">
+		<div class="popup__wrapper">
+			<button data-close type="button" class="popup__close authorization__close">Закрыть</button>
+			<div class="popup__content authorization__content">
+				<div class="authorization__wrapper">
+					<img class="authorization__logo" src="img/logo.svg" alt="">
+					<h2 class="authorization__title">Авторизация</h2>
+					<form class="authorization__form" action="#">
+						<label for="login">
+							<input type="text" name="login" placeholder="Email или телефон" class="authorization__input">
+						</label>
+						<label for="password">
+							<input type="password" name="password" placeholder="Пароль" class="authorization__input">
+						</label>
+						<span class="authorization__message"></span>
+						<button type="submit" class="authorization__btn">Войти</button>
+					</form>
+				</div>
+				<div class="authorization__decor">
+					<span>
+						<img src="img/auth-decor.svg" alt="decor">
+					</span>
+					<span>
+						<img src="img/auth-decor.svg" alt="decor">
+					</span>
+					<span>
+						<img src="img/auth-decor.svg" alt="decor">
+					</span>
+					<span>
+						<img src="img/auth-decor.svg" alt="decor">
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20231001172134"></script>
+</body>
+
+</html>
